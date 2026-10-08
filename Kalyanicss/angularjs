@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>Simple AngularJS App</title>
+
+    <!-- AngularJS CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+    <script>
+        // Create module
+        var app = angular.module("myApp", []);
+
+        // Create controller
+        app.controller("myController", function($scope) {
+            $scope.message = "Hello, AngularJS!";
+            $scope.name = "";
+        });
+    </script>
+</head>
+
+<body ng-controller="myController">
+
+    <h2>{{message}}</h2>
+
+    <input type="text" ng-model="name" placeholder="Enter your name">
+
+    <p>Welcome, {{name}} 👋</p>
+
+</body>
+</html>

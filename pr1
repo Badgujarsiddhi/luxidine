@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="">
+<head>
+    <title>AngularJS App</title>
+</head>
+<body>
+
+<h3>Simple AngularJS Application</h3>
+
+<p>Welcome to AngularJS</p>
+
+<!-- AngularJS Library -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+</body>
+</html>
