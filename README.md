@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LuxeDine Chatbot - Getting Started
 
 This project is a premium restaurant ordering chatbot built with HTML, CSS, and JavaScript.
@@ -57,3 +58,7 @@ start index.html
 - `index.html`: The main user interface.
 - `style.css`: The premium glassmorphism styling.
 - `script.js`: The chatbot logic and menu data.
+=======
+# luxidine
+This project is a premium restaurant ordering chatbot built with HTML, CSS, and JavaScript.
+>>>>>>> 3ef26d3e37504f50d65866a80a6568792febe997
